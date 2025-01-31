@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+     body{
+        font-family: Arial, Helvetica, sans-serif;
+     } 
+     a{
+        color: black;
+        text-decoration: none;
+     } 
+     a:visited{
+        color: blueviolet;
+     } 
+     a:hover{
+        color: black;
+        text-decoration: underline;
+     }
+     a::after{
+     content:'  Link';
+     text-decoration: none;
+     font-weight: normal;
+     color: chartreuse;
+     }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&t=183s&ab_channel=CursoemV%C3%ADdeo">Curso em video</a></li>
+        <li><a href="https://www.youtube.com/watch?v=7ZZf1ql_LeM&ab_channel=ProfessorRicardoMarc%C3%ADlio">Canal Geo politica</a> </li>
+        <li><a href="https://www.youtube.com/watch?v=Lh_BdxAoNk0&ab_channel=AstroElias">Canal signos</a></li>
+    </ul>
+
+    
+</body>
+</html>
