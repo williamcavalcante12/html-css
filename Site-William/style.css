@@ -14,9 +14,9 @@ body{
 }
 header{
     background-image: linear-gradient(to bottom, #3ddc84, #063d1e);
-    min-height: 150px;
     text-align: center;
     padding-top: 30px;
+    height: 150px;
 }
 header > h1{
 
@@ -28,7 +28,7 @@ header > h1{
     font-weight: normal;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623); 
 }
-header > p{
+#cabeca{
     color:white ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
@@ -40,6 +40,7 @@ nav{
     background-color:#2fa866;
     padding: 10px;
     background-image: linear-gradient(to bottom, #3ddc84, #063d1e);
+    text-align: center;
  }
 nav > a{
     color: #d8ebe0;
@@ -47,6 +48,7 @@ nav > a{
     text-decoration: none;
     font-weight: bold;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.37); 
+   
 }
 nav > a:hover{
     background-color: #83e1ad; 
@@ -54,16 +56,25 @@ nav > a:hover{
     transition-duration: 1s; 
 
 }
-main{background-color:#d1e9dc;
-    padding: 20px;
-    font-size: 1.05em;   
+main{
+   background-color:white;
+   width: 100%;
+   height: 250px;
+   margin: auto;
+   padding: 30px;
+    font-size: 1.1em; 
+    text-align: center;  
 }
+
+
 
 #brasao01 {
 position: absolute;
-  left: 20px;
-  top: 20px;
-  z-index: 1
+left: 300px;
+top: 270px;
+z-index: 1;
+height: 250px;
+opacity: 0.1;
 } 
 
 .freixo01{
