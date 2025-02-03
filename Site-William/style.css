@@ -7,13 +7,13 @@
     --cor3:#2fa866;
     --cor4:#1a5c37;
     --cor5:#063d1e;}
+
 body{
     background-color: #c5ebd6;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-image: linear-gradient(to bottom, #2fa866, #063d1e
-    );
+    background-image: linear-gradient(to bottom, #3ddc84, #063d1e);
     min-height: 150px;
     text-align: center;
     padding-top: 30px;
@@ -26,61 +26,48 @@ header > h1{
     margin-bottom: 20px;
     font-size: 3em;
     font-weight: normal;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.623);
-   
-    
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623); 
 }
 header > p{
-    color: white;
+    color:white ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
-    max-width: 700px;
-    text-align: justify;
     text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.623);
     
 }
 nav{
     background-color:#2fa866;
     padding: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    
-}
+    background-image: linear-gradient(to bottom, #3ddc84, #063d1e);
+ }
 nav > a{
-    color: #063d1e;
+    color: #d8ebe0;
     padding: 15px;
     text-decoration: none;
     font-weight: bold;
-    
-   
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.37); 
 }
 nav > a:hover{
     background-color: #83e1ad; 
     border-radius: 5px; 
     transition-duration: 1s; 
+
 }
 main{background-color:#d1e9dc;
-    max-width: 1210px;
-    min-width: 300px;
-    margin: auto;
-    margin-bottom: 30px;
     padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
     font-size: 1.05em;   
 }
 
+#brasao01 {
+position: absolute;
+  left: 20px;
+  top: 20px;
+  z-index: 1
+} 
 
-img {
-    position: absolute;
-    opacity: 0.2;
-    left: 250px;
-    top: 250px;
+.freixo01{
     height: 300px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 300px;
+}
 
-    
-    }
+
