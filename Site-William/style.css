@@ -10,6 +10,7 @@
 
 body{
     background-color: #c5ebd6;
+    margin:0px!important;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
@@ -17,6 +18,7 @@ header{
     text-align: center;
     padding-top: 20px;
     height: 150px;
+    border-radius: 10px 10px 0px 0px;
    
       
 }
@@ -28,7 +30,8 @@ header > h1{
     margin-bottom: 20px;
     font-size: 3em;
     font-weight: normal;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);    
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623); 
+       
 }
 p#cabeca{
     color:white ;
@@ -42,6 +45,7 @@ nav{
     padding: 10px;
     background-image: linear-gradient(to bottom, #3ddc84, #063d1e);
     text-align: center;
+    border-radius: 0px 0px 10px 10px;
  }
 nav > a{
     color: #d8ebe0;
@@ -64,7 +68,8 @@ left: 300px;
 top: 270px;
 z-index: 1;
 height: 250px;
-opacity: 0.1;  
+opacity: 0.2;  
+
 } 
 
 p {     
@@ -77,12 +82,14 @@ color: black;
 section.par1{
     background-color: white;
     font-size: 1.1em;
-    padding: 6px; 
+    padding: 50px;
+    border-radius: 10px 10px 10px 10px; 
            
 }
 article#foto1{
     background-image: url(freixo.jpg);
     background-position: center center;
+    border-radius: 10px 10px 10px 10px;
      
     }
     article.imagemFreixo{
@@ -98,5 +105,24 @@ article#foto1{
         color: black;
         width: 250px;
     }
+    aside{
+        background-color: #83e1ad;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.705);
+    }
+    aside > ul {
+        list-style-position: inside;
+        columns: 2;
+        list-style-type: "✔️ ";
+    }
+    aside h3{
+        background-color: var(--cor4);
+        color: white;
+        padding: 10px;
+        margin: -10px -10px 0px -10px;
+        border-radius: 10px 10px 0px 0px;
+        
     
+    }
    
